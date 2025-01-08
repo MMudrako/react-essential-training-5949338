@@ -8,6 +8,29 @@ function Header({ name, year }) {
     </header>
   );
 }
+const items = [
+  "Macaroni and Cheese",
+  "Salmon with Potatoes",
+  "Tofu with Vegetables",
+  "Minestrone Soup"
+];
+
+const dishObjects = items.map((dish, i) => ({
+  id: i,
+  title: dish
+}));
+
+function Main({ dishes }) {
+  return (
+    <ul>
+      {dishes.map((dish) => (
+        <li key={dish.id} style={{ listStyleType: "none" }}>
+          {dish.title}
+        </li>
+      ))}
+    </ul>
+  );
+}
 
 const items = [
   "Mashed Potatoes with Beef Cutlet",
