@@ -24,7 +24,7 @@ function Header() {
             <Link href="/hotels">Hotels</Link>
           </div>
           <div>
-            <Link href="/contact">Contact</Link>
+            <Link href="/contact">Contact Us</Link>
           </div>
         </nav>
       </div>
