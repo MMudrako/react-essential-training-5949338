@@ -3,15 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+<<<<<<< HEAD
     "dev": "next dev --turbopack",
+=======
+    "dev": "next dev",
+>>>>>>> 7d53cc43b48b94701e6bc52cb7f874bb98e09642
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "next": "15.1.4"
+=======
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.2.5"
+>>>>>>> 7d53cc43b48b94701e6bc52cb7f874bb98e09642
   },
   "devDependencies": {
     "postcss": "^8",
