@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 
+
 export default function HotelBlock({ id, name, capacity }) {
   const imageLoader = ({ src }) => {
     return `./hotels/${src}.jpeg`;
